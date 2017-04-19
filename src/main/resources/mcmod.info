@@ -1,0 +1,16 @@
+[
+{
+  "modid": "deathpointlogger",
+  "name": "DeathpointLogger",
+  "description": "Mod that saves your last deathpoint",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["MggMuggins"],
+  "credits": "Everyone who designed anything that allowed me to make this mod. Think about it. It's a lot of people.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

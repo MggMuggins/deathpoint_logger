@@ -1,0 +1,7 @@
+.gradle/
+DeathpointLogger.iml
+DeathpointLogger.ipr
+DeathpointLogger.iws
+eclipse/
+gradle/
+out/
