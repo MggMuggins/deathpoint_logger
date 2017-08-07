@@ -11,11 +11,10 @@ public class DeathpointEventHandler {
     @SubscribeEvent
     public void onDeath(LivingDeathEvent event) {
         Entity entity = event.entity;
-        //int dimID = entity.dimension;
         if (entity instanceof EntityPlayer) {
             EntityPlayer player = (EntityPlayer) entity;
             ChunkCoordinates coords = player.getPlayerCoordinates();
-            String message = "You died at x" + coords.posX + ", y" + coords.posY + ", z" + coords.posZ;
+            String message = "Deathpoint logged at x" + coords.posX + ", y" + coords.posY + ", z" + coords.posZ;
             //Other stuff here
             player.addChatComponentMessage(new ChatComponentText(message));
         }
